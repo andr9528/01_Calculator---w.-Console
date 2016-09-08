@@ -2,20 +2,20 @@
 
 namespace _01_Calculator
 {
-    internal class Calculator
+    public class Calculator
     {
 
-        internal static int Add(int v1, int v2)
+        public static int Add(int v1, int v2)
         {
             return v1 + v2;
         }
 
-        internal static int Subtract(int v1, int v2)
+        public static int Subtract(int v1, int v2)
         {
             return v1 - v2;
         }
 
-        internal static int Sum(int[] numbers)
+        public static int Sum(int[] numbers)
         {
             int numout = 0;
 
@@ -26,7 +26,7 @@ namespace _01_Calculator
             return numout;
         }
 
-        internal static int Multiply(int[] numbers)
+        public static int Multiply(int[] numbers)
         {
             int numout = 1;
 
@@ -37,7 +37,7 @@ namespace _01_Calculator
             return numout;
         }
 
-        internal static int Power(int v1, int v2)
+        public static int Power(int v1, int v2)
         {
             int numout = v1;
 
@@ -56,7 +56,7 @@ namespace _01_Calculator
             }
         }
 
-        internal static int Factorial(int v)
+        public static int Factorial(int v)
         {
             int numout = v;
             for (int i = v-1; i >= 1; i--)
