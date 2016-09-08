@@ -36,15 +36,26 @@ namespace ConsoleApplication1
                         int input2 = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("The first number is " + input2 + ", What is your Second number?");
                         int input3 = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("So you wish add " + input2 + " + " + input3 + " together");
+                        Console.WriteLine("So you wish to add " + input2 + " + " + input3 + " together");
                         Console.WriteLine("Your result is " + Calculator.Add(input2, input3));
                         Console.ReadLine();
                         break;
                     /*
                      case 2
 
-                     case 3
+                     */
+                    case 3:
+                        Console.WriteLine("You have chosen to subtract, I accept 2 numbers");
+                        Console.WriteLine("Give me the first number");
+                        int input4 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("The first number is " + input4 + ", What is your Second number?");
+                        int input5 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("So you wish to subtract " + input4 + " - " + input5);
+                        Console.WriteLine("Your result is " + Calculator.Subtract(input4, input5));
+                        Console.ReadLine();
+                        break;
 
+                    /*
                      case 4
 
                      case 5
